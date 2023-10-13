@@ -1,0 +1,53 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.main-contain {
+  padding: 10px;
+  width: 65%;
+}
+.profile-main {
+  padding: 30px;
+  box-shadow: 0px 0px 10px 1px #c7c7c7;
+  border-radius: 10px;
+}
+.profile-pic {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.dp-main {
+  border-radius: 10px;
+  width: 60%;
+}
+
+.avatar {
+  width: 60px;
+  border-radius: 50%;
+}
+.post-item {
+  padding: 10px;
+  box-shadow: 0px 0px 10px 1px #c7c7c7;
+  border-radius: 10px;
+}
+.avatar-name{
+  font-size: 15px;
+  font-weight: bold;
+}
+.like-btn{
+  background-color: #c7c7c7;
+}
+@media screen and (max-width: 992px) {
+  .main-contain {
+    width: 100%;
+  }
+  .prof-name {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .prof-about {
+    text-align: center;
+  }
+}
